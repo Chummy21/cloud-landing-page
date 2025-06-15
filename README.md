@@ -1,7 +1,19 @@
+# The Future of AI-Powered Trading Technology
 
-# 🌥️ AI Cloud Landing Page
+### NAME: Chioma Okafor
+### ALTSCHOOL ID:ALT/SOE/024/4939
 
-This project is a simple, responsive landing page deployed on an AWS EC2 instance using **Nginx** as the web server. It's part of my AltSchool Africa Tinyuka Second Semester project where I learned the fundamentals of provisioning servers, deploying static websites, and configuring web servers.
+---
+
+# 🌥️ 
+## 📌 Project Description
+
+This project showcases a responsive cloud-themed landing page, deployed on an AWS EC2 instance with Nginx as the web server. It was developed as part of my 
+
+AltSchool Africa Tinyuka Second Semester coursework, where I explored the core principles of Linux server provisioning, static site deployment, and web server 
+
+configuration in a real-world cloud environment.
+
 
 
 ## 🔗 Live Demo
