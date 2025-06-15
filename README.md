@@ -1,15 +1,14 @@
+
 # 🌥️ AI Cloud Landing Page
 
 This project is a simple, responsive landing page deployed on an AWS EC2 instance using **Nginx** as the web server. It's part of my AltSchool Africa Tinyuka Second Semester project where I learned the fundamentals of provisioning servers, deploying static websites, and configuring web servers.
 
----
 
 ## 🔗 Live Demo
 
 Access the deployed site via the Public IP:  
 👉 [http://18.169.190.77](http://18.169.190.77)
 
----
 
 ## 🗂️ Project Structure
 
@@ -17,9 +16,6 @@ ai-cloud-landing-page/
 ├── index.html
 ├── style.css
 ├── README.md
-
-
----
 
 ## 📌 Features
 
@@ -31,7 +27,6 @@ ai-cloud-landing-page/
 - FreeDNS subdomain mapping (optional)
 - Optional reverse proxy and SSL via Let’s Encrypt (Certbot)
 
----
 
 ## 🚀 Steps Taken
 
@@ -93,4 +88,5 @@ ai-cloud-landing-page/
  - Tailwind was added using CDN in index.html:
   - <script src="https://cdn.tailwindcss.com"></script>
    - I also Used utility classes like:
-     - <div class="bg-blue-500 text-white text-center p-4">
+     - <div class="bg-blue-500 text-white text-center p-4"
+
