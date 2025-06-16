@@ -16,8 +16,10 @@ configuration in a real-world cloud environment.
 
 ## 🔗 Live Demo
 
-Access the deployed site via the Public IP:  
-👉 [http://18.169.190.77](http://18.169.190.77)
+- **Public IP**: [http:/18.175.140.50](http://18.175.140.50)  
+- **Secure HTTPS**: [https://chummy7.strangled.net](https://chummy7.strangled.net)
+
+---
 
 
 ## 🗂️ Project Structure
