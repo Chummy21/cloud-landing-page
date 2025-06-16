@@ -9,7 +9,6 @@
 ## 📌 Project Description
 
 This project showcases a responsive cloud-themed landing page, deployed on an AWS EC2 instance with Nginx as the web server. It was developed as part of my 
-
 AltSchool Africa Tinyuka Second Semester coursework, where I explored the core principles of Linux server provisioning, static site deployment, and web server 
 
 configuration in a real-world cloud environment.
