@@ -37,20 +37,22 @@ ai-cloud-landing-page/
 - Nginx web server for deployment
 - Git + GitHub for version control
 - FreeDNS subdomain mapping (optional)
-- Optional reverse proxy and SSL via Let’s Encrypt (Certbot)
+- SSL via Let’s Encrypt (Certbot)
 
 
-## 🚀 Steps Taken
+## 🚀 Steps Taken to complete the project
 
 ### 1. 🖊️ Created the Web Page
 - Built a basic HTML + CSS landing page
 - Added Tailwind CSS via CDN to enhance styling and responsiveness
 
-### 2. 📁 Pushed to GitHub
-- Initialized a Git repo locally
-- Connected to a GitHub repo
-- Used `git push` to upload files
-
+### 2.**EC2 Instance Setup**  
+   Launched an EC2 instance on Ubuntu 24.04, enabling HTTP and HTTPS.  
+   Screenshots:  
+   ![HTTPS Enabled](./assets/Security-Group.png)  
+   ![Instance Launched](./images/screenshot2.png)  
+   ![Ubuntu View](./images/screemshot9.png)
+   
 ### 3. 💻 Provisioned EC2 Server
 - I created a new Ubuntu EC2 instance on AWS Provisioning the Server
 - Cloud Provider: Amazon Web Services (AWS)
