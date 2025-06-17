@@ -68,7 +68,7 @@ ai-cloud-landing-page/
 
 ### 5. **Deploying the Web Page**  
    Replaced the default Nginx HTML file with my custom HTML file.  
-   ![Deployed Web Page](./images/screenshot1.png)
+   ![Deployed Web Page](./assets/Custom%20HTML%20File.png)
 
    
 ### 4. Web Server: Nginx
