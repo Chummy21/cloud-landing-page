@@ -1,6 +1,6 @@
 # The Future of AI-Powered Cloud Infrastructure ☁️
 
-### NAME: Chioma Okafor
+### NAME: Sylvia Chioma Okafor
 
 ### ALTSCHOOL ID: ALT/SOE/024/4939
 
