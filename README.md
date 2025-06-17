@@ -53,20 +53,13 @@ ai-cloud-landing-page/
 
    - EC2 Instance Created
    ![EC2 Instance](./assets/EC2%20instance%20created.png)
-  
-   ![Ubuntu View](./images/screemshot9.png)
    
-### 3. 💻 Provisioned EC2 Server
-- I created a new Ubuntu EC2 instance on AWS Provisioning the Server
-- Cloud Provider: Amazon Web Services (AWS)
-- Service Used: EC2 (Elastic Compute Cloud)
-- Instance Type: t2.micro (free-tier eligible)
-- Operating System: Ubuntu Server 22.04 LTS (64-bit)
-- Storage: 8 GB General Purpose SSD
-- Set up security groups to allow:
-  - HTTP (port 80)
-  - HTTPS (port 443)
-  - SSH (port 22)
+### 3. 3. **Connecting to EC2 and Installing Nginx**  
+   Accessed the instance via SSH and installed Nginx.  
+   - **Before Nginx Installation**:  
+     ![Before Nginx](./assets/Before%20Installing%20nginx.png)  
+   - **After Nginx Installation**:  
+     ![After Nginx](./assets/After%20installing%20nginx)
 
 ### EC2 Instance Showing Ubuntu OS
 ![EC2 Instance Showing Ubuntu OS](./assets/UbuntuOS.png)
