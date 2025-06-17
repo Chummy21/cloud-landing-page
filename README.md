@@ -50,7 +50,10 @@ ai-cloud-landing-page/
    Launched an EC2 instance on Ubuntu 24.04, enabling HTTP and HTTPS.  
    Screenshots:  
    ![HTTPS Enabled](./assets/Security%20Group.png)  
-   ![Instance Launched](./images/screenshot2.png)  
+
+   - EC2 Instance Created
+   ![EC2 Instance](./assets/EC2%20instance%20created.png)
+  
    ![Ubuntu View](./images/screemshot9.png)
    
 ### 3. 💻 Provisioned EC2 Server
