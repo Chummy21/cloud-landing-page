@@ -73,7 +73,7 @@ ai-cloud-landing-page/
    
 ### 6. **Subdomain Creation with FreeDNS**  
    Created a subdomain using FreeDNS.  
-   ![Subdomain Creation](./assets/subdomain%20creation .png)
+   ![Subdomain Creation](./assets/subdomain%20creation.png)
 
 ### 7. 🌍 Connected a Subdomain (Optional)
  - Registered a subdomain on FreeDNS
