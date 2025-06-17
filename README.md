@@ -46,7 +46,7 @@ ai-cloud-landing-page/
 - Built a basic HTML + CSS landing page
 - Added Tailwind CSS via CDN to enhance styling and responsiveness
 
-### 2.**EC2 Instance Setup**  
+### 2. **EC2 Instance Setup**  
    Launched an EC2 instance on Ubuntu 24.04, enabling HTTP and HTTPS.  
    Screenshots:  
    ![HTTPS Enabled](./assets/Security%20Group.png)  
@@ -54,13 +54,16 @@ ai-cloud-landing-page/
    - EC2 Instance Created
    ![EC2 Instance](./assets/EC2%20instance%20created.png)
    
-### 3. 3. **Connecting to EC2 and Installing Nginx**  
+### 3. **Connecting to EC2 and Installing Nginx**  
    Accessed the instance via SSH and installed Nginx.  
    - **Before Nginx Installation**:  
      ![Before Nginx](./assets/Before%20Installing%20nginx.png)  
    - **After Nginx Installation**:  
-     ![After Nginx](./assets/After%20installing%20nginx)
+     ![After Nginx](./assets/After%20installing%20nginx.png)
 
+### 4. Cloned the GitHub Repo on EC2 Using:
+ - git clone https://github.com/Chummy21/cloud-landing-page.git
+ - ![Git Clone](./assets/Git%20cloned%20my%20rep%20to%20EC2%20server.png)
 ### EC2 Instance Showing Ubuntu OS
 ![EC2 Instance Showing Ubuntu OS](./assets/UbuntuOS.png)
 
