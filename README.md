@@ -63,7 +63,7 @@ ai-cloud-landing-page/
 
 ### 4. Cloned the GitHub Repo on EC2 Using:
  - git clone https://github.com/Chummy21/cloud-landing-page.git
- - ![Git Clone](./assets/Git%20cloned%20my%20rep%20to%20EC2%20server.png)
+ - ![Git Clone](./assets/git-clone-ec2.png)
 ### EC2 Instance Showing Ubuntu OS
 ![EC2 Instance Showing Ubuntu OS](./assets/UbuntuOS.png)
 
