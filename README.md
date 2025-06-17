@@ -67,12 +67,14 @@ ai-cloud-landing-page/
 
 
 ### 5. **Deploying the Web Page**  
-   Replaced the default Nginx HTML file with my custom HTML file.  
-   ![Deployed Web Page](./assets/Custom%20HTML%20File.png)
+   - Replaced the default Nginx HTML file with my custom HTML file.  
+   - ![Deployed Web Page](./assets/Custom%20HTML%20File.png)
 
    
 ### 6. **Subdomain Creation with FreeDNS**  
-   Created a subdomain using FreeDNS.  
+  - Created a subdomain using FreeDNS.
+  - Pointed it to my EC2 Public IP.
+  - Verified using ping and browser
    ![Subdomain Creation](./assets/subdomain%20creation.png)
 
 ### 7. 🌍 Connected a Subdomain (Optional)
@@ -80,10 +82,10 @@ ai-cloud-landing-page/
  - Pointed it to my EC2 Public IP
  - verified using ping and browser
 
-### 8. 🛡️ Secured with SSL (Optional)
- - Used Certbot to install Let's Encrypt SSL (only if the domain was active):
-  - sudo apt install certbot python3-certbot-nginx -y
-  - sudo certbot --nginx
+### 8. 🛡️ 7. **Securing the Subdomain with Certbot**  
+   - **After SSL Installation**:  
+     ![After SSL](./assets/After%20SSL.png)
+
 
 ### 9. 🎨 Tailwind CSS
  - Tailwind was added using CDN in index.html:
