@@ -71,21 +71,9 @@ ai-cloud-landing-page/
    ![Deployed Web Page](./assets/Custom%20HTML%20File.png)
 
    
-### 4. Web Server: Nginx
-- Tools Installation:
-  - sudo apt update
-  - sudo apt install nginx git -y
-- Configuration:
-  - Updated /etc/nginx/sites-available/default to serve the HTML landing page.
-  - Used systemctl to restart and enable Nginx.
-- Deployment Directory: /var/www/html
-  - Bonus: Configured a reverse proxy (optional setup, attempted but not using Node.js).
-
-### 5. Cloned the GitHub Repo on EC2 Using:
- - git clone https://github.com/Chummy21/ai-cloud-landing-page.git
-
-### 6. Deployed the Files
- - sudo cp -r ai-cloud-landing-page/* /var/www/html/
+### 6. **Subdomain Creation with FreeDNS**  
+   Created a subdomain using FreeDNS.  
+   ![Subdomain Creation](./assets/subdomain%20creation .png)
 
 ### 7. 🌍 Connected a Subdomain (Optional)
  - Registered a subdomain on FreeDNS
