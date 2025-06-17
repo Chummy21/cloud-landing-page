@@ -64,13 +64,13 @@ ai-cloud-landing-page/
 ### 4. Cloned the GitHub Repo on EC2 Using:
  - git clone https://github.com/Chummy21/cloud-landing-page.git
  - ![Git Clone](./assets/git-clone-ec2.png)
-### EC2 Instance Showing Ubuntu OS
-![EC2 Instance Showing Ubuntu OS](./assets/UbuntuOS.png)
-
-### EC2 Instance Showing Ubuntu OS
-![EC2 Instance Showing Public IP](./assets/public IP and Ubuntu OS.png)
 
 
+### 5. **Deploying the Web Page**  
+   Replaced the default Nginx HTML file with my custom HTML file.  
+   ![Deployed Web Page](./images/screenshot1.png)
+
+   
 ### 4. Web Server: Nginx
 - Tools Installation:
   - sudo apt update
