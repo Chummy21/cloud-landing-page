@@ -42,20 +42,67 @@ cloud-landing-page/
 
 ## 🚀 Steps Taken to complete the project
 
-### 1. 🖊️ Created the Web Page
-- Built a basic HTML + CSS landing page
-- Added Tailwind CSS via CDN to enhance styling and responsiveness
+### 1. 🖊️ Created the Web Page and tested it
+
+- I created the following files:
+
+- index.html
+This file contains the structure and content of my landing page. Tailwind CSS was integrated via CDN for responsive styling. I also embedded a small JavaScript function to enhance the page experience dynamically during refresh.
+
+- style.css (Optional)
+Although Tailwind handled most styling, I used this CSS file for any additional custom styles or animations that Tailwind didn’t cover directly.
+
+- README.md
+A detailed markdown file documenting the project structure, setup process, deployment steps, challenges faced, and screenshots of the live deployment.
+
+- assets/ (Also called the images folder/)
+This folder holds all image assets used in the landing page, including screenshots of the EC2 setup, Nginx installation, SSL certification, Git clone, and the rendered webpage in a browser.
+
+- After completing the design and tests locally, I initialized a Git repository and pushed all the project files to GitHub.
+
+- These files were later cloned into my EC2 instance during the deployment process, where I served the webpage using Nginx and configured HTTPS using Certbot.
+
 
 ### 2. **EC2 Instance Setup**  
-   Launched an EC2 instance on Ubuntu 24.04, enabling HTTP and HTTPS.  
-   Screenshots:  
+
+- To host my landing page, I provisioned an EC2 instance using AWS with the following configuration:
+
+I already had an AWS account, thus, to host my landing page, I had to provision an EC2 instance using AWS. So, I logged into the AWS Management Console and searched for EC2 in the top search bar. From the EC2 dashboard, I clicked on “Launch Instance” to begin provisioning my virtual server.
+
+I followed these steps during the setup:
+
+Gave the instance a name (CloudLandingPage). 
+Selected the Ubuntu Server 22.04 LTS (64-bit) as my preferred AMI.
+
+Choose the t2.micro instance type, which is eligible for the AWS Free Tier.
+
+Created a new key pair for SSH access (though I later used EC2 Instance Connect for convenience).
+
+Configured the network settings by allowing the security group rules:
+
+SSH (port 22) – to connect to the server
+
+HTTP (port 80) – to serve the webpage
+
+HTTPS (port 443) – to enable SSL/TLS
+
+Allocated 8 GB of general-purpose SSD storage.
+
+Reviewed the settings and launched the instance.
+
+Once the instance was running, I connected to it using EC2 Instance Connect. This gave me terminal access where I could install and configure Git and Nginx within the server. I was also able to pull my code from GitHub and set up the environment for deploying the landing page.
+
    ![HTTPS Enabled](./assets/Security%20Group.png)  
 
    - EC2 Instance Created
    ![EC2 Instance](./assets/EC2%20instance%20created.png)
    
-### 3. **Connecting to EC2 and Installing Nginx**  
-   Accessed the instance via SSH and installed Nginx.  
+### 3. **Connecting to EC2, Installing Nginx and Cloning the GitHub Repository**  
+   After gaining access to my EC2 instance via EC2 Instance Connect, I proceeded to set up the web server environment and deploy my landing page.
+   First, I accessed the instance via SSH and installed Nginx.  
+
+   - I Updated the system packages to ensure the server had the latest software:
+   - 
    - **Before Nginx Installation**:  
      ![Before Nginx](./assets/Before%20Installing%20nginx.png)  
    - **After Nginx Installation**:  
@@ -86,6 +133,16 @@ cloud-landing-page/
 
 ---
 
+### 8. **Submission/Deliverables** 🛡️
+
+Domain name: chummy7.strangled.net
+
+Public IP Address: 18.175.140.50
+
+Public URL Address: https://chummy7.strangled.net/
+
+---
+
 ## ⚠️ Problems Encountered
 
 - Initially encountered issues installing Tailwind CSS locally, so I opted to use the official CDN instead.
@@ -97,9 +154,19 @@ cloud-landing-page/
 
 ---
 
+PS:This site may not be available after 4 weeks, as I plan to shut down the EC2 instance to avoid unexpected charges on my AWS account.
+---
+
+If you have any questions, feedback, or suggestions, feel free to reach out or connect with me directly. I would love to hear from you!
+
+📧 Email: chiomagerald@gmail.com
+🔗 LinkedIn: [Okafor Chioma](https://www.linkedin.com/in/okafor-chioma/)
+
+---
+
 ## 🙏 Acknowledgement
 
-I’m deeply thankful to God for the accomplishment of this project and for the chance to grow as a student at AltSchool. My heartfelt appreciation goes to my husband and family whose constant encouragement and support made this journey possible.
+I’m deeply thankful to God for the accomplishment of this project and for the chance to grow as a student at AltSchool. My heartfelt appreciation goes to my Instructor who imparted the knowledge, and finally, my husband and family whose constant encouragement and support made this journey possible.
 
 
 ---
