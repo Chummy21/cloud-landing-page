@@ -67,28 +67,29 @@ This folder holds all image assets used in the landing page, including screensho
 
 - To host my landing page, I provisioned an EC2 instance using AWS with the following configuration:
 
-I already had an AWS account, thus, to host my landing page, I had to provision an EC2 instance using AWS. So, I logged into the AWS Management Console and searched for EC2 in the top search bar. From the EC2 dashboard, I clicked on “Launch Instance” to begin provisioning my virtual server.
+- I already had an AWS account, thus, to host my landing page, I had to provision an EC2 instance using AWS. So, I logged into the AWS Management Console and searched for EC2 in the top search bar. From the EC2 dashboard, I clicked on “Launch Instance” to begin provisioning my virtual server.
 
-I followed these steps during the setup:
+  I followed these steps during the setup:
 
-Gave the instance a name (CloudLandingPage). 
-Selected the Ubuntu Server 22.04 LTS (64-bit) as my preferred AMI.
+- Gave the instance a name (CloudLandingPage). 
 
-Choose the t2.micro instance type, which is eligible for the AWS Free Tier.
+- Selected the Ubuntu Server 22.04 LTS (64-bit) as my preferred AMI.
 
-Created a new key pair for SSH access (though I later used EC2 Instance Connect for convenience).
+- Choose the t2.micro instance type, which is eligible for the AWS Free Tier.
 
-Configured the network settings by allowing the security group rules:
+- Created a new key pair for SSH access (though I later used EC2 Instance Connect for convenience).
 
-SSH (port 22) – to connect to the server
+- Configured the network settings by allowing the security group rules:
 
-HTTP (port 80) – to serve the webpage
+   SSH (port 22) – to connect to the server
 
-HTTPS (port 443) – to enable SSL/TLS
+   HTTP (port 80) – to serve the webpage
 
-Allocated 8 GB of general-purpose SSD storage.
+   HTTPS (port 443) – to enable SSL/TLS
 
-Reviewed the settings and launched the instance.
+- Allocated 8 GB of general-purpose SSD storage.
+
+- Reviewed the settings and launched the instance.
 
 Once the instance was running, I connected to it using EC2 Instance Connect. This gave me terminal access where I could install and configure Git and Nginx within the server. I was also able to pull my code from GitHub and set up the environment for deploying the landing page.
 
