@@ -102,7 +102,7 @@ Once the instance was running, I connected to it using EC2 Instance Connect. Thi
    After gaining access to my EC2 instance via EC2 Instance Connect, I proceeded to set up the web server environment and deploy my landing page.
    First, I accessed the instance via SSH and installed Nginx.  
 
-   - I Updated the system packages to ensure the server had the latest software:
+   - I updated the system packages to ensure the server had the latest software:
    - ![sudo apt update](./assets/sudo%20apt%20updates.png) 
    - **Before Nginx Installation**:  
      ![Before Nginx](./assets/Before%20Installing%20nginx.png)
