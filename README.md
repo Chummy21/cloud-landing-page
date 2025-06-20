@@ -105,7 +105,12 @@ Once the instance was running, I connected to it using EC2 Instance Connect. Thi
    - I Updated the system packages to ensure the server had the latest software:
    - ![sudo apt update](./assets/sudo%20apt%20updates.png) 
    - **Before Nginx Installation**:  
-     ![Before Nginx](./assets/Before%20Installing%20nginx.png)  
+     ![Before Nginx](./assets/Before%20Installing%20nginx.png)
+
+   - Nginx Installation
+     
+   -  ![nginx](./assets/nginx.png)
+     
    - **After Nginx Installation**:  
      ![After Nginx](./assets/After%20installing%20nginx.png)
 
